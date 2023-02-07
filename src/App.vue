@@ -4,7 +4,7 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/father">Father</router-link>
   </nav>
-  <router-view v-if="$route.meta.keepAlive" />
+  <router-view />
 </template>
 
 <style>
